@@ -16,7 +16,7 @@ header {
 }
 
 .container{
-    width: 1110px;
+    width: 952px;
 }
 
 header .container {
@@ -27,6 +27,7 @@ header .container {
 .left_menu{
     margin-left: 170px;
     display: flex;
+    padding-bottom: 145px;
 }
 
 .logo{
@@ -61,6 +62,7 @@ header .container {
     font-size: 12px;
     line-height: 20px;
     text-align: center;
+    padding-bottom: 105px;
 }   
 
 .left_btn{
@@ -84,4 +86,128 @@ header .container {
     border-radius: 4px;
     padding: 8px 8px;
     background: #F2994A;
+}
+
+.title {
+    background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%);
+}
+
+.title .container{
+    display: flex;
+    justify-content: space-between;
+}
+.left_block {
+    
+    width: 540px;
+    height: 439px;
+    margin-left: 170px;
+}
+
+.text {
+    width: 531px;
+    height: 150px;
+    /*font*/
+    color: #99EFD0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.low_text {
+    width: 470px;
+    height: 45x;
+    /*font*/
+    color: #8476AA;
+    font-family: Gilroy-SemiBold;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.btns{
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.first_btn{
+    width: 157px;
+    height: 46px;
+    margin-right: 20px;
+    line-height: 20px;  
+    border-radius: 4px;
+    padding: 8px 8px;
+    background: #F2994A;
+    padding: 13px 13px;
+    margin-right: 20px;
+    /*font*/
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.second_btn{
+    width: 157px;
+    height: 46px;
+    margin-right: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #F2994A;
+    border-radius: 4px;
+    padding: 8px 8px;
+    padding: 13px 13px;
+    /*font*/
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #F2994A;
+}
+
+.video{
+    height: 80px;
+    display: flex;
+}
+.joke{
+    width: 140px;
+    height: 80px;
+    background: #361C5D;
+    border-radius: 4px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.play{
+    padding: 20px 50px 20px 50px;
+}
+
+.video_text{
+    width: 380px;
+    height: 80px;
+}
+
+.top_video_text{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #8476AA;
+    margin-bottom: 6px;
+}
+
+.low_video_text{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #6D6D78;
 }
