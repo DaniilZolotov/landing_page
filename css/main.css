@@ -1,0 +1,90 @@
+div, p, input, button, form, span, a, ul,li{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+header {
+    background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%);;
+}
+
+.container{
+    width: 1110px;
+}
+
+header .container {
+    display: flex;
+    padding-top: 90px;
+}
+
+.left_menu{
+    margin-left: 170px;
+    display: flex;
+}
+
+.logo{
+    height: 36px;
+    width: 36px;
+}
+
+.front_menu{
+    margin-left: 80px;
+    width: 347px;
+    font-family: Gilroy-SemiBold;
+    font-size: 12px;
+    color: #B5B5B5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.front_menu p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right_menu{
+    width: 245px;
+    margin-left: 430px;
+    display: flex;
+}   
+
+.left_btn{
+    width: 112px;
+    height: 36px;
+    margin-right: 20px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #F2994A;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #F2994A;
+    border-radius: 4px;
+    text-align: center;
+    padding: 8px 8px;
+}
+
+.right_btn{
+    width: 112px;
+    height: 36px;
+    margin-right: 20px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 20px;  
+    border-radius: 4px;
+    text-align: center;
+    padding: 8px 8px;
+    background: #F2994A;
+}
