@@ -46,9 +46,14 @@ header .container {
 
 }
 
+
 .front_menu p {
     display: flex;
     justify-content: space-between;
+}
+
+.front_menu a{
+    color: #B5B5B5;
 }
 
 .right_menu{
