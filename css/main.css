@@ -253,3 +253,65 @@ header .container {
     color: #8476AA;
     text-align: center;
 }
+
+.first_group{
+    margin-top: 50px;
+    display: flex;
+}
+
+.ecstatic{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    margin-right: 50px;
+}
+
+.fliper{
+    height: 24px;
+    width: 24px;
+    margin-right: 30px;
+}
+
+
+.green_text{
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #99EFD0;
+}
+
+
+.grey_text{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #8476AA;
+    width: 247px;
+    height: 66px;
+    margin-top: 10px;
+}
+
+.folly{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    margin-right: 50px;
+}
+
+.airpods{
+    margin-right: 30px;
+}
+
+.possible{
+    display: flex;
+    width: 300px;
+    height: 100px;
+}
+
+.LTE{
+    width: 24px;
+    height: 24px;
+    margin-right: 30px;
+}
