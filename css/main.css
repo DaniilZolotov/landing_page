@@ -16,8 +16,11 @@ a{
 
 .container{
     width: 952px;
-    margin-left: 170px;
+    
+    margin: 0 auto;
 }
+
+/*Header*/
 
 header .container {
     display: flex;
@@ -97,6 +100,7 @@ header .container {
     background: #F2994A;
 }
 
+/*Header*/
 
 .title .container{
     display: flex;
@@ -231,7 +235,6 @@ header .container {
 .choise {
     width: 997px;
     height: 382px;
-    margin-left: 105px;
 }
 
 .top{
