@@ -16,6 +16,7 @@ a{
 
 .container{
     width: 952px;
+    margin-left: 170px;
 }
 
 header .container {
@@ -24,7 +25,6 @@ header .container {
 }
 
 .left_menu{
-    margin-left: 170px;
     display: flex;
     padding-bottom: 145px;
 }
@@ -101,7 +101,6 @@ header .container {
     
     width: 540px;
     height: 439px;
-    margin-left: 170px;
 }
 
 .text {
@@ -175,6 +174,7 @@ header .container {
 .video{
     height: 80px;
     display: flex;
+    margin-bottom: 90px;
 }
 .joke{
     width: 140px;
@@ -211,4 +211,14 @@ header .container {
     font-size: 14px;
     line-height: 22px;
     color: #6D6D78;
+}
+
+.mini_footer{
+    width: 1170px;
+    display: block;
+    margin-bottom: 100px;
+}
+
+.frame{
+    position: absolute;
 }
