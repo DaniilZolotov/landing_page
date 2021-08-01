@@ -24,6 +24,7 @@ header .container {
     padding-top: 90px;
 }
 
+
 .left_menu{
     display: flex;
     padding-bottom: 145px;
@@ -35,15 +36,19 @@ header .container {
 }
 
 .front_menu{
-    margin-left: 80px;
+    margin-left: 40px;
     width: 347px;
-    font-family: Gilroy-SemiBold;
-    font-size: 12px;
     color: #B5B5B5;
     display: flex;
     justify-content: space-between;
     line-height: 20px;
-
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 
