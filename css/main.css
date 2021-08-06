@@ -15,8 +15,9 @@ a{
 
 
 .container{
-    width: 1050px;
     
+    max-width: 1060px;
+
     margin: 0 auto;
 }
 
@@ -259,15 +260,17 @@ header .container {
 }
 
 .first_group{
+    margin: 0 auto;
     margin-top: 50px;
     display: flex;
+    justify-content: space-between;
 }
 
 .ecstatic{
     display: flex;
     width: 300px;
     height: 100px;
-    margin-right: 50px;
+
 }
 
 .fliper{
@@ -301,7 +304,6 @@ header .container {
     display: flex;
     width: 300px;
     height: 100px;
-    margin-right: 50px;
 }
 
 .airpods{
@@ -318,4 +320,11 @@ header .container {
     width: 24px;
     height: 24px;
     margin-right: 30px;
+}
+
+.second_group{
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
 }
