@@ -235,8 +235,9 @@ header .container {
 }
 
 .choise {
-    width: 997px;
+    width: 1060px;
     height: 382px;
+    margin-bottom: 150px;
 }
 
 .top{
@@ -263,20 +264,20 @@ header .container {
     margin: 0 auto;
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.ecstatic{
+.frst_columm{
     display: flex;
     width: 300px;
     height: 100px;
 
 }
 
-.fliper{
+.photo_logo{
     height: 24px;
     width: 24px;
-    margin-right: 30px;
+    margin-right: 30px;    
 }
 
 
@@ -300,31 +301,85 @@ header .container {
     margin-top: 10px;
 }
 
-.folly{
+.second_columm{
     display: flex;
     width: 300px;
     height: 100px;
 }
 
-.airpods{
-    margin-right: 30px;
-}
 
-.possible{
+
+.third_columm{
     display: flex;
     width: 300px;
     height: 100px;
 }
 
-.LTE{
-    width: 24px;
-    height: 24px;
-    margin-right: 30px;
-}
 
 .second_group{
     margin: 0 auto;
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.business_section .container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.left_side{
+    width: 470px;
+    height: 300px;
+    margin-top: 100px;
+    
+}
+
+.business{
+    width: 470px;
+    height: 100px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 50px;
+    color: #99EFD0;
+    margin-bottom: 32px;
+}
+
+span{
+    color: #F2994A;
+
+}
+
+.low_business{
+    width: 470px;
+    height: 56px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    color: #8476AA;
+    margin-bottom: 45px;
+
+}
+
+.low_btn{
+    width: 155px;
+    height: 48px;
+    background: #F2994A;
+    box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
+    border-radius: 3px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 14px 0px;
 }
