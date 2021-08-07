@@ -326,6 +326,7 @@ header .container {
 .business_section .container{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 200px;
 }
 
 .left_side{
@@ -382,4 +383,114 @@ span{
     text-transform: uppercase;
     color: #FFFFFF;
     padding: 14px 0px;
+}
+
+.wtf{
+    width: 385px;
+    height: 570px;      
+    position: absolute;
+}
+
+.metrics{
+    width: 1060px;
+    height: 322px;
+    margin-bottom: 170px;
+}
+
+.simple{
+    width: 1060px;
+    height: 84px;
+    /*шрифт*/
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.33px;
+    color: #99EFD0;
+    margin-bottom: 32px;
+}
+
+.fully{
+    margin: 0 auto;
+    width: 414px;
+    height: 40px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #8476AA;
+    margin-bottom: 48px;
+}
+
+.columm_low{
+    width: 291px;
+    height: 120px;
+}
+
+.number100{
+    margin: 0 auto;
+    width: 92px;
+    height: 42px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.33px;
+    color: #99EFD0;
+    margin-bottom: 16px;
+}
+
+.universal{
+    width: 291px;
+    height: 60px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #8476AA;
+}
+
+.number43{
+    margin: 0 auto;
+    width: 157px;
+    height: 42px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.33px;
+    color: #99EFD0;
+    margin-bottom: 16px;
+}
+
+.number30{
+    margin: 0 auto;
+    width: 72px;
+    height: 42px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.33px;
+    color: #99EFD0;
+    margin-bottom: 16px;
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-around;
 }
