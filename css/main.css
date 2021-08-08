@@ -494,3 +494,48 @@ span{
     display: flex;
     justify-content: space-around;
 }
+
+
+.project{
+    width: 770px;
+    height: 220px;
+    margin: 0 auto;
+}
+
+.txt{
+    margin: 0px auto;
+    width: 770px;
+    height: 100px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 50px;
+    text-align: center;
+    color: #99EFD0;
+    margin-bottom: 63px;
+}
+
+.yellow_btn{
+    width: 164px;
+    height: 54px;
+    background: #F2994A;
+    box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
+    border-radius: 3px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 14px 0px;
+    margin: 0px auto;
+    padding: 17px 0px;
+}
+
+.bigFrame{
+    position: absolute;
+}
